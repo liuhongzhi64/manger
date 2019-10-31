@@ -1,0 +1,57 @@
+[
+    {
+      "index": "2",
+      "text": "商品管理",
+      "child": [
+        { "indexs": "/index/trades", "texts": "商品管理" },
+        { "indexs": "/index/addtrade", "texts": "添加商品" }
+      ],
+      "userGroup":["0","1","2"]
+    },
+    {
+      "index": "3",
+      "text": "进货管理",
+      "child": [
+        { "indexs": "/index/stock", "texts": "库存管理" },
+        { "indexs": "/index/addstock", "texts": "添加库存" }
+      ],
+      "userGroup":["0","1","2"]
+    },
+    {
+      "index": "4",
+      "text": "出货管理",
+      "child": [
+        { "indexs": "/index/clear", "texts": "销售列表" },
+        { "indexs": "/index/prdouctclear", "texts": "商品出库" },
+        { "indexs": "/index/prdouctreturn", "texts": "商品退货" }
+      ],
+      "userGroup":["0","1","2"]
+    },
+    {
+      "index": "5",
+      "text": "统计管理",
+      "child": [
+        { "indexs": "/index/sellstatistics", "texts": "销售统计" },
+        { "indexs": "/index/stockstatistics", "texts": "进货统计" }
+      ],"userGroup":["0"]
+    },
+    {
+      "index": "6",
+      "text": "账号管理",
+      "child": [
+        { "indexs": "/index/account", "texts": "账号管理" },
+        { "indexs": "/index/addaccount", "texts": "添加账号" },
+        { "indexs": "/index/changepwd", "texts": "密码修改" }
+      ],
+      "userGroup":["0"]
+    },
+    {
+      "index": "7",
+      "text": "会员管理",
+      "child": [
+        { "indexs": "/index/vip", "texts": "账号管理" },
+        { "indexs": "/index/addvip", "texts": "添加账号" }
+      ],
+      "userGroup":["0","1"]
+    }
+  ]
